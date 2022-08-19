@@ -1,0 +1,130 @@
+html, body{
+    background-color: #ffffff;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+/* pseudo class css */
+
+:root {
+    
+}
+
+/* abbout_role_css */
+
+.about_role{
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.social_media_section{
+    padding: 0.2rem 0 0.7rem 0;
+}
+
+.social_media_section a i{
+    font-size: 2rem;
+    color: black;
+    margin-right: 0.5rem;
+}
+
+.cv_btn_section button{
+    font-weight: 700;
+}
+
+.down_arrow_btn_section{
+    padding-top: 0.7rem;
+}
+
+.down_arrow_btn_section button{
+    background-color: black;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 8px 10px;
+    font-size: 1.5rem;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.down_arrow_btn_section button:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: #ffffff;
+    transform: rotate(180deg);
+}
+
+.navbar_text{
+    font-weight: 600 !important;
+}
+
+/* about section css */
+
+.about_section_heading{
+    font-weight: 700 !important;
+    border-bottom: 10px solid black;
+    display: inline-block;
+}
+
+.about_section_img{
+    border-radius: 50%;
+}
+
+/* skill section css */
+
+.skill_text{
+    font-weight: 600 !important;
+    font-size: 1rem;
+    position: relative;
+    top: -0.1rem;
+}
+
+/* blog section css */
+
+.blog_section{
+    overflow-x: hidden;
+}
+
+.blog_section_heading{
+    text-align: center;
+}
+
+/* project_section_heading */
+
+.project_section_heading{
+    text-align: center;
+}
+
+.card_width, .project_width{
+    width: 100%;
+}
+
+.carousel-inner{
+    height: 25rem;
+}
+
+/* footer section css */
+
+.contact_section{
+    text-align: center;
+    background-color: black;
+    padding: 1rem 0 1rem 0;
+}
+
+.contact_section p{
+    display: inline-block;
+}
+
+.contact_section p a i{
+    font-size: 2rem;
+    color: white;
+    margin-right: 0.5rem;
+}
+
+/* Responsive CSS */
+
+@media only screen and (min-width: 400px){
+    .card_width, .project_width{
+        width: 18rem;
+    }
+}
